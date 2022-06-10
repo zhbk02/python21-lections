@@ -114,23 +114,23 @@ string[5] # ' '
 
 
 # срез - это подстрока строки
-string [0:5] # 'hello'
-string [2;4] # 'll'
-string[0:5][2:4] # 'll'
-string[:5] # 'hello'
-string[6:] # 'world'
-string[:] # 'hello world'
-string[0:11:2]  # 'hlowrd'
-string[::3]  # 'hlwl'
-string[::-1] # "dlrow olleh"
-string[::-2] # 'drwolh
+# string [0:5] # 'hello'
+# string [2;4] # 'll'
+# string[0:5][2:4] # 'll'
+# string[:5] # 'hello'
+# string[6:] # 'world'
+# string[:] # 'hello world'
+# string[0:11:2]  # 'hlowrd'
+# string[::3]  # 'hlwl'
+# string[::-1] # "dlrow olleh"
+# string[::-2] # 'drwolh
 
 
 
 
-# ДОП ИНФА
-a = 5
-b= 5
-print(id(a)
-print(id(b)))
-print(hash(a)) 
+# # ДОП ИНФА
+# a = 5
+# b= 5
+# print(id(a)
+# print(id(b)))
+# print(hash(a)) 
