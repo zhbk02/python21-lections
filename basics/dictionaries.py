@@ -16,6 +16,29 @@ dict_ = {
     # {"s":5}: 44 # TypeError: unhashable type
 }
 
+
+"=================Создание словарей ======================="
+dict1 = {"a":3}
+dict2 = dict( [ ('key1', 'value1'), ('key2', 'value2') ] )
+# dict2 = {'key1':'value1', 'key2':'value2'}
+dict3 = dict( ( ['key1', 'value1'], ('key2', 'value2') ) )
+# dict3 = {'key1':'value1', 'key2':'value2'}
+dict4 = dict(['ab', 'cd', 'de'])
+# dict4 = {"a":"b", 'c':'d', 'd':'e'}
+key1, value1 = 'ab'
+dict4[key1] = value1
+key2, value2 = 'cd'
+dict4[key2] = value2
+key3, value3 = 'de'
+dict4[key3] = value3
+
+
+dict5 = dict(['abc']) # ValueError: dictionary update sequence element #0 has length 3; 2 is required
+key1, value1 = 'abc' #
+dict5[key1] = value1
+
+
+
 "================Методы Словаря =================="
 dict_clear() # чистить словарь
 print(dict_ ) # {}
