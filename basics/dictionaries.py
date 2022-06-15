@@ -78,3 +78,10 @@ print(popped) # d
 
 # метод popitem удаляет и возвращает последнюю пару 
 print(dict1.popitem())
+
+# при итерации dict1.key мы получим его ключи
+for key in dict1.keys():
+    print(key)
+# "a" "b" "c" "d "
+
+# при итерации dict
