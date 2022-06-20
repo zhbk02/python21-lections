@@ -58,3 +58,59 @@
 # print(words_length)
 
 
+# try:
+#     num1 = input("Enter anything: ")
+#     num2 = input("Enter anything: ")
+#     result = int(num1) + int(num2)
+# except ValueError:
+#     result = num1 + num2
+# finally:
+#     print(result)
+
+
+# dict_ = {1:"bob123", 2:"lil456"} 
+
+# dict_ = {value: key for key, value in dict_.items{}}
+# try:
+#     username = input("Enter username: ")
+#     ID = dict_{username}
+#     print(ID)
+# except KeyError:
+#     print("There isn't such username in database")
+# else:
+#     print(f"Welcome, {username} ")
+# finally:
+#     print("Thank You")
+
+# try:
+#     age = int(input("Enter your age: "))
+#     if age <= 0:
+#         raise Exception ("Do not enter negative integers or zero")
+# except ValueError:
+#     print("Enter integer, not string")
+# else:
+#     print(f"Your age: {}")
+
+
+
+
+
+
+
+import random
+
+NumberToGuess = random.randint(1, 100)
+
+userGuess = -1
+
+
+while userGuess != NumberToGuess:
+    userGuess = int(input("Угадайте число от 1 до 100: "))
+    if userGuess > NumberToGuess:
+        print("Число должно быть меньше")
+    elif userGuess < NumberToGuess:
+        print("Число должно быть больше")
+    else:
+        priint("Вы угадали число = ")
+
+        break
