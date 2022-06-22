@@ -95,22 +95,67 @@
 
 
 
+# random number
+
+# import random
+
+# NumberToGuess = random.randint(1, 100)
+
+# userGuess = -1
 
 
-import random
+# while userGuess != NumberToGuess:
+#     userGuess = int(input("Угадайте число от 1 до 100: "))
+#     if userGuess > NumberToGuess:
+#         print("Число должно быть меньше")
+#     elif userGuess < NumberToGuess:
+#         print("Число должно быть больше")
+#     else:
+#         priint("Вы угадали число = ")
 
-NumberToGuess = random.randint(1, 100)
+#         break
 
-userGuess = -1
+# def get_type(x, y):
+#     type1 = type(x, y)
+#     return type1
+# print(get_type(5, "s"))
 
 
-while userGuess != NumberToGuess:
-    userGuess = int(input("Угадайте число от 1 до 100: "))
-    if userGuess > NumberToGuess:
-        print("Число должно быть меньше")
-    elif userGuess < NumberToGuess:
-        print("Число должно быть больше")
-    else:
-        priint("Вы угадали число = ")
+# task1
+# from random import random
 
-        break
+
+from random import random
+
+
+# def generate_password(param1, param2):
+#     import _random
+#     random_list = random.sample(range(1, 10), k=7)
+#     print(random_list)
+
+# # def get_info(name=(input("Enter your name: "))),
+# #             last_name(input("Enter your last name: ")):
+
+# generate_password(1, 2)
+# def generate_password(param1, param2):
+#     import random
+#     random_list = random.sample(range(1, 10), k = 7)
+#     random_list = [str(i) for i in random_list]
+#     password = param1 + param2 + "".join(random_list)
+#     return password
+    
+
+# def get_info(name=input("Enter your name: ")),
+#             last_name=input("Enter your last name: ")
+#             generate_password(param1=name, param2=last_name)
+#             return password
+
+# print(get_info())
+
+def get_data():
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+dictionary = {"+": add(num1, num2),
+            
+}
