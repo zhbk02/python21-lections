@@ -125,37 +125,119 @@
 # from random import random
 
 
-from random import random
+# from random import random
 
 
-# def generate_password(param1, param2):
-#     import _random
-#     random_list = random.sample(range(1, 10), k=7)
-#     print(random_list)
+# # def generate_password(param1, param2):
+# #     import _random
+# #     random_list = random.sample(range(1, 10), k=7)
+# #     print(random_list)
 
-# # def get_info(name=(input("Enter your name: "))),
-# #             last_name(input("Enter your last name: ")):
+# # # def get_info(name=(input("Enter your name: "))),
+# # #             last_name(input("Enter your last name: ")):
 
-# generate_password(1, 2)
-# def generate_password(param1, param2):
-#     import random
-#     random_list = random.sample(range(1, 10), k = 7)
-#     random_list = [str(i) for i in random_list]
-#     password = param1 + param2 + "".join(random_list)
-#     return password
+# # generate_password(1, 2)
+# # def generate_password(param1, param2):
+# #     import random
+# #     random_list = random.sample(range(1, 10), k = 7)
+# #     random_list = [str(i) for i in random_list]
+# #     password = param1 + param2 + "".join(random_list)
+# #     return password
     
 
-# def get_info(name=input("Enter your name: ")),
-#             last_name=input("Enter your last name: ")
-#             generate_password(param1=name, param2=last_name)
-#             return password
+# # def get_info(name=input("Enter your name: ")),
+# #             last_name=input("Enter your last name: ")
+# #             generate_password(param1=name, param2=last_name)
+# #             return password
 
-# print(get_info())
+# # print(get_info())
 
-def get_data():
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second number: "))
+# # def get_data():
+# #     num1 = int(input("Enter first number: "))
+# #     num2 = int(input("Enter second number: "))
 
-dictionary = {"+": add(num1, num2),
+# # dictionary = {"+": add(num1, num2),
             
-}
+
+# # Task 1
+# from math import sqrt
+
+# list_ = [4, " abc", 3, 12, True, 2.5, False] 
+# new_list = list(map(lambda x: round (sqrt(x)), filter(lambda y: type(y) == int, list_)))
+# print(new_list)
+
+# num = 4321
+
+# if str(num)[0] > str(num)[1] and str(num)[1] > str(num)[2] and str(num)[2] > str(num)[3]:
+#     print('yes')
+# else:
+#     print('no')
+
+
+
+# number = '1234'
+# if number[-1] < number[-2] : 
+#     if number[-2] < number[-3]:
+#         if number[-3] < number[-4]:
+#             print('yes')
+# else:
+    # print('No')
+
+number = '1233'
+if (number[-1] > number[-2]) and (number[-2] and number[-3]) and (number[-3] > number[-4]):
+    print('yes')
+else:
+    print('No')
+
+number = '1233'
+if number[-1] < number[-2] : 
+    if number[-3] < number[-4]:
+        print('yes')
+else:
+    print('No')
+
+
+# num = 4321
+
+# if str(num)[0] > str(num)[1] and str(num)[1] > str(num)[2] and str(num)[2] > str(num)[3]:
+#     print('yes')
+# else:
+#     print('no')
+
+# num = 4322
+
+# num1 = int(str(num)[0])
+# num2 = int(str(num)[1])
+# num3 = int(str(num)[2])
+# num4 = int(str(num)[3])
+
+
+# if (num1 > num2) and (num2 > num3) and (num3 > num4):
+#     print('yes')
+# else:
+#     print('no')
+
+
+
+
+
+
+
+
+# Task2
+
+# dictionary = [{"name": "Alex", "point": 87},
+#             {"name": "Kate", "point":69},
+#             {"name": "Billy", "point":57},
+#             {"name": "Jerry", "point":56}]
+
+# list_ = list(filter(lambda x: x ["point"] < 60, dictionary))
+# print(list_)
+
+# Task3
+# from functools import reduce
+
+# list_ = ["m", "a", "k", "e", "r", "s"]
+
+# result = reduce(lambda a, b: a + b, list_)
+# print(result)
