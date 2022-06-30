@@ -118,7 +118,7 @@ string[5] # ' '
 
 # срез - это подстрока строки
 # string [0:5] # 'hello'
-# string [2;4] # 'll'
+# string [2:4] # 'll'
 # string[0:5][2:4] # 'll'
 # string[:5] # 'hello'
 # string[6:] # 'world'

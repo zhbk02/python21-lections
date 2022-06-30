@@ -46,7 +46,7 @@ print(dict_ ) # {}
 dict_ = dict.fromkeys([1,2,4])
 print(dict_) # {1:None, 2:None, 4:None}
 
-dict_ = dict.fromkeys([,2,4, "Hello"])
+dict_ = dict.fromkeys([1,2,4, "Hello"])
 print(dict_) # {1:"hello", 2:"hello", 4:"hello"}
 
 dict_ = {"a":1, "b":2}

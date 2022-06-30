@@ -183,18 +183,18 @@
 # else:
     # print('No')
 
-number = '1233'
-if (number[-1] > number[-2]) and (number[-2] and number[-3]) and (number[-3] > number[-4]):
-    print('yes')
-else:
-    print('No')
+# number = '1233'
+# if (number[-1] > number[-2]) and (number[-2] and number[-3]) and (number[-3] > number[-4]):
+#     print('yes')
+# else:
+#     print('No')
 
-number = '1233'
-if number[-1] < number[-2] : 
-    if number[-3] < number[-4]:
-        print('yes')
-else:
-    print('No')
+# number = '1233'
+# if number[-1] < number[-2] : 
+#     if number[-3] < number[-4]:
+#         print('yes')
+# else:
+#     print('No')
 
 
 # num = 4321
@@ -241,3 +241,18 @@ else:
 
 # result = reduce(lambda a, b: a + b, list_)
 # print(result)
+
+
+# r = "global"
+# def func():
+#     r = "enclosed"
+#     print(r)
+#     def func1():
+#         nonlocal r
+#         print(r)
+#         r = "local"
+        
+#     func1()
+# print(r)
+# func()
+
