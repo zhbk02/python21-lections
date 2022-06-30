@@ -4,3 +4,4 @@ git commit -m 'message'  - создаем новую версию
 git push origin master  - отправляем в github
 git pull origin master - стягиваем новые измеенения с github (если они есть в гихабе, но нет локально)
 git clone ssh - ссылка -  копируем репозиторий с github (можно чужой )
+git log - посмотреть все коммиты
