@@ -1,0 +1,32 @@
+{
+    "books": [
+        {
+            "title": "Philosopher's Stone",
+            "year": 1997
+        },
+        {
+            "title": "Chamber of Secrets",
+            "year": 1998
+        },
+        {
+            "title": "Prisoner of Azkaban",
+            "year": 1999
+        },
+        {
+            "title": "Goblet of Fire",
+            "year": 2000
+        },
+        {
+            "title": "Order of the Phoenix",
+            "year": 2003
+        },
+        {
+            "title": "Half-Blood Prince",
+            "year": 2005
+        },
+        {
+            "title": "Deathly Hallows",
+            "year": 2007
+        }
+    ]
+ }
