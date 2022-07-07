@@ -1,5 +1,5 @@
 "=====================OOP======================"
-#  OOP - object-oriented programming
+# OOP - object-oriented programming
 # ООП - обьектно-ориентированноое программирование (парадигма)
 
 class Person:
